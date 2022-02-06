@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: 'Blueberry';
+  src: url('/fonts/Blueberry.ttf');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+.blueberry {
+  font-family: 'Blueberry', sans-serif;
+}
